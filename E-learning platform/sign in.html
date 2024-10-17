@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Telusko</title>
+    <title>CodeQuest</title>
     <!-- Favicon -->
-     <link rel="shortcut icon" href="./Asserts/favicon.png" type="image/x-icon">
+     <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon">
 
      <!-- Bootstrap icons CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -25,14 +25,14 @@
    <!-- Navbar Start -->
    <nav class="navbar navbar-expand-md bg-body-tertiary">
     <div class="container-fluid bg-secondary">
-      <a class="navbar-brand fs-3" href="#"><span style="color: orangered;" class="fw-bold">CODE </span><span style="color: rgb(43, 0, 255); " class="fw-bold">TELUSKO</span></a>
+      <a class="navbar-brand fs-3" href="#"><span style="color: orangered;" class="fw-bold">Code</span><span style="color: rgb(43, 0, 255); " class="fw-bold">Quest</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active fs-4" aria-current="page" href="#">Home</a>
+            <a class="nav-link active fs-4" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fs-4" href="./Courses.html">Courses</a>
@@ -52,24 +52,29 @@
       </div>
     </div>
   </nav><br>
-     <!-- Navbar End -->
+  <!-- Navbar End -->
 
-     
-
+  
+  
 
 <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+<script>
+ function handleSubmit() {
+   alert("login successfully ")
+ }
+ </script>
+<div class="mb-3">
+ <label for="exampleInputEmail1" class="form-label">Email address</label>
+ <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+ <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+</div>
+<div class="mb-3">
+ <label for="exampleInputPassword1" class="form-label">Password</label>
+ <input type="password" class="form-control" id="exampleInputPassword1">
+</div>
+<div class="mb-3 form-check">
+ <input type="checkbox" class="form-check-input" id="exampleCheck1">
+ <label class="form-check-label" for="exampleCheck1">Check me out</label>
+</div>
+<button type="submit" class="btn btn-primary" onclick="handleSubmit()">Submit</button>
 </form>
